@@ -12,7 +12,6 @@ from twilio.twiml.messaging_response import MessagingResponse
 app = Flask(__name__)
 
 
-
 chat_list = []
 
 def prompt(username, question):
